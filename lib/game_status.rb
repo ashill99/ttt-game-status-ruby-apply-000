@@ -48,6 +48,6 @@ end
 
 def winner(board)
   if won?(board)
-  return board(WIN_COMBINATIONS)
+  return (WIN_COMBINATIONS[[]])
 end
 end
